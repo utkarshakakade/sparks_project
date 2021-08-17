@@ -24,9 +24,6 @@ if(isset($_POST['submit']))
         echo ' alert("Oops! Negative values cannot be transferred")';  // showing an alert box.
         echo '</script>';
     }
-
-
-  
     // constraint to check insufficient balance.
     else if($amount > $sql1['balance']) 
     {
